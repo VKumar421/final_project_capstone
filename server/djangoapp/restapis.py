@@ -4,6 +4,7 @@ import os
 from dotenv import load_dotenv
 from .restapis import get_request, analyze_review_sentiments, post_review
 
+
 load_dotenv()
 
 backend_url = os.getenv(
